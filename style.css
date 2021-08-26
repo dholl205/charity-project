@@ -1,0 +1,65 @@
+html {
+  background: rgba(84, 245, 35, 0.384);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text {
+  font-size-adjust: inherit;
+}
+
+.undertext {
+  font-size: small;
+  color: gray;
+}
+
+.links {
+  text-decoration: none;
+  color: red;
+  border-radius: 15px;
+  display: flex;
+}
+
+.links:hover {
+  color: #613385;
+  text-shadow: #461257;
+}
+
+.rhino {
+  min-height: 20vw;
+  max-height: 75vw;
+}
+
+.otter {
+  min-height: 20vw;
+  max-height: 75vw;
+}
+
+.macaw {
+  min-height: 20vw;
+  max-height: 75vw;
+}
+
+.leopard {
+  min-height: 20vw;
+  max-height: 75vw;
+}
+
+.panda {
+  min-height: 20vw;
+  max-height: 75vw;
+}
+
+#link_container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  height: 8vh;
+}
+
+.topindex {
+  width: 98vw;
+}
